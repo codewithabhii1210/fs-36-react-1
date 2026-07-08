@@ -5,6 +5,7 @@ const App = () => {
   let getVal = (num) => {
     console.log(num);
   };
+
   return (
     <div>
       <h1>Props drilling</h1>
