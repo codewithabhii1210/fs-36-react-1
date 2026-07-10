@@ -108,6 +108,21 @@ const App = () => {
     },
   ];
 
+  let students = [
+    "Bhavya Prapti Jain",
+    "Shraddha Bansal",
+    "Owais Siddiqui",
+    "Devansh Bhargava",
+    "Shivam Mishra",
+    "Krishnakant Chourasiya",
+    "Sonam Yadav",
+    "Ashutosh Chaurasiya",
+    "Shlok Pandey",
+    "Vaishnavi Khursange",
+  ];
+
+  console.log(students[Math.floor(Math.random() * arr.length - 1)]);
+
   return (
     <div className="gap-5 h-screen p-4 flex flex-wrap">
       {arr.map((elem, index) => {
